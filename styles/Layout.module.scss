@@ -30,17 +30,17 @@ $color4: #1b1717;
         font-family: $family2;
         font-weight: 600;
         color: $color4;
-        @media only screen and (max-width: 375px) {
+        @media only screen and (max-width: 450px) {
           font-size: 1.8rem;
         }
         .dash {
           font-size: 3.5rem;
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-width: 450px) {
             font-size: 2rem;
           }
         }
       }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 450px) {
         width: 100%;
       }
       &:hover {
@@ -57,7 +57,7 @@ $color4: #1b1717;
           color: $color2;
           font-size: 1.2rem;
           margin-right: 1rem;
-          @media only screen and (max-width: 375px) {
+          @media only screen and (max-width: 450px) {
             margin-right: 0;
           }
         }
@@ -81,12 +81,12 @@ $color4: #1b1717;
           }
         }
       }
-      @media only screen and (max-width: 375px) {
+      @media only screen and (max-width: 450px) {
         width: 100%;
         margin: 0.5rem 0;
       }
     }
-    @media only screen and (max-width: 375px) {
+    @media only screen and (max-width: 450px) {
       flex-wrap: wrap;
     }
   }
