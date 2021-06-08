@@ -1,0 +1,32 @@
+$family1: "Baloo Tammudu 2", cursive;
+$family2: "Roboto Mono", monospace;
+$color1: #eeebdd;
+$color2: #810000;
+$color3: #630000;
+$color4: #1b1717;
+.Dropzone {
+  width: 18rem;
+  display: flex;
+  border: dashed $color4;
+  border-radius: 0.8rem;
+  color: $color1;
+  font-family: $family2;
+  font-weight: 300;
+  padding: 1rem;
+  margin: 1rem 1rem 0 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background-color: #cccccc;
+  @media only screen and (max-width: 375px) {
+    min-height: 12rem;
+  }
+  .button {
+    width: 100%;
+    border-radius: 0.8rem;
+    padding: 1rem;
+    text-align: center;
+    background-color: #630000;
+    color: #eeebdd;
+  }
+}

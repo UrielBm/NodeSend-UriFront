@@ -1,0 +1,21 @@
+$family1: "Baloo Tammudu 2", cursive;
+$family2: "Roboto Mono", monospace;
+$color1: #eeebdd;
+$color2: #810000;
+$color3: #630000;
+$color4: #1b1717;
+.title {
+  font-family: $family1;
+  font-size: 2.5rem;
+  color: $color3;
+  line-height: 1.3rem;
+  font-weight: 700;
+  text-align: center;
+}
+.subtitle {
+  font-size: 1.5rem;
+  font-family: $family2;
+  color: $color2;
+  font-weight: 300;
+  text-align: center;
+}

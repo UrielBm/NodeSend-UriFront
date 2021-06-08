@@ -1,0 +1,112 @@
+$family1: "Baloo Tammudu 2", cursive;
+$family2: "Roboto Mono", monospace;
+$color1: #eeebdd;
+$color2: #810000;
+$color3: #630000;
+$color4: #1b1717;
+.form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .formWrapperAlert {
+    margin: 1rem 0;
+    width: 100%;
+    font-family: $family2;
+  }
+  .wrapperFormData {
+    width: 100%;
+    margin-bottom: 1rem;
+    .wrapperInput {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-family: $family1;
+      label {
+        width: 5rem;
+        span {
+          color: $color3;
+        }
+      }
+      input {
+        width: 15rem;
+        border-radius: 1rem;
+        padding: 0.3rem 1rem;
+        outline: none;
+        color: $color4;
+        &:focus {
+          width: 16rem;
+        }
+      }
+    }
+    .wrapperFormError {
+      width: 100%;
+      padding: 0.3rem 2rem;
+      margin-top: 0.3rem;
+      border-radius: 0.6rem;
+      background-color: $color1;
+      font-family: $family2;
+      font-size: 0.9rem;
+      p {
+        text-align: start;
+        color: $color2;
+        font-weight: 600;
+        margin-bottom: 0.1rem;
+      }
+      .errors {
+        font-size: 0.75rem;
+        font-weight: 300;
+      }
+    }
+    button {
+      width: 100%;
+      padding: 0.5rem 1rem;
+      border-radius: 0.8rem;
+      border: none;
+      color: $color1;
+      background-color: $color4;
+      font-size: 1.2rem;
+      font-weight: 700;
+      transition: background-color 0.4s ease-in-out, font-size 0.4s ease-in-out;
+      &:hover {
+        background-color: $color2;
+        font-size: 1.4rem;
+      }
+    }
+  }
+}
+.formFile {
+  width: 100%;
+  margin-bottom: 1rem;
+  .wrapperSelect {
+    margin: 0.5rem 0;
+    .wrapperLabelPassword {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 0.5rem;
+    }
+    .labeltext {
+      font-family: $family2;
+      font-size: 0.8rem;
+      font-weight: 300;
+      color: $color4;
+    }
+    .inputPassword {
+      width: 100%;
+      border-radius: 1rem;
+      outline: none;
+      border: none;
+      padding: 0.3rem 1rem;
+    }
+    .selectFormFile {
+      width: 100%;
+      border-radius: 1rem;
+      outline: none;
+      border: none;
+      margin: 0.5rem 0;
+      padding: 0.3rem 1rem;
+    }
+  }
+}
